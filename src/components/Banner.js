@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from '../axios'
 import './Banner.css'
 import requests from '../Requests'
+import TypeWriter from 'react-typewriter'
 
 function Banner() {
   const [movie, setMovie] = useState([])
@@ -42,9 +43,11 @@ function Banner() {
           <button className='banner__button'>Play</button>
           <button className='banner__button'>My List</button>
         </div>
-        <h1 className='banner__description'>
-          {truncate(movie?.overview, 150)}
-        </h1>
+        <TypeWriter typing={4}>
+          <h1 className='banner__description'>
+            {truncate(movie?.overview, 150)}
+          </h1>
+        </TypeWriter>
       </div>
       <div className='banner--fadeBottom' />
     </header>
