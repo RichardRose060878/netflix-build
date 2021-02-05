@@ -91,3 +91,9 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+.loginScreen__input > form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

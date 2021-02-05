@@ -1,0 +1,48 @@
+.plan {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  transition: all 0.3s ease-out;
+  padding: 10px;
+}
+
+.plan:hover {
+  opacity: 0.7;
+}
+
+.plan__button {
+  width: 30%;
+  padding: 10px 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+.plan__current {
+  width: 35%;
+  padding: 10px 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #808080;
+  border: none;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+.plan__title:hover {
+  opacity: 0.7;
+}
+
+.plan__title > span {
+  font-size: 0.8rem;
+}
+
+.plan__title {
+  display: flex;
+  flex-direction: column;
+}
