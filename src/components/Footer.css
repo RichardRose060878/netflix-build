@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   padding: 70px 20px;
-  margin: auto;
+  /*margin: auto;*/
   /*max-width: 1000px;*/
   /*width: 100%;*/
   flex-direction: column;
@@ -50,10 +50,14 @@
   }
   .footer__row {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    max-width: 600px;
   }
 
   .footer__row > ul:last-child {
     padding-right: 10px;
+  }
+  .footer__row > ul:first-child {
+    padding-left: 0;
   }
 }
 
