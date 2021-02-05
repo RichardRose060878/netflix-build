@@ -1,5 +1,6 @@
 .footer {
   display: flex;
+  justify-content: center;
   padding: 70px 20px;
   /*margin: auto;*/
   /*max-width: 1000px;*/
@@ -7,6 +8,7 @@
   flex-direction: column;
   background-color: #000;
   border-top: 8px solid #222;
+  overflow-x: hidden;
 }
 
 .footer__column {
@@ -51,16 +53,13 @@
   .footer__row {
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     max-width: 600px;
+    grid-gap: 20px;
   }
 
-  .footer__row > ul:last-child {
-    padding-right: 10px;
+  .footer__link {
+    margin-bottom: 10px;
   }
-  .footer__row > ul:first-child {
+  .footer__column {
     padding-left: 0;
   }
-}
-
-.footer__row > ul:last-child {
-  padding-left: 0;
 }
