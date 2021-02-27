@@ -1,12 +1,12 @@
 import firebase from 'firebase'
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDBy2kI4WLVGpz6zIgG-w2rJ0oevxsxPpk',
-  authDomain: 'netflix-build-93520.firebaseapp.com',
-  projectId: 'netflix-build-93520',
-  storageBucket: 'netflix-build-93520.appspot.com',
-  messagingSenderId: '917437524568',
-  appId: '1:917437524568:web:9bf49ceea868a29e67b82d',
+  apiKey: 'AIzaSyAnuEy0wCc6YnhBO5HtPLDOJL23Cc2SeY8',
+  authDomain: 'netflix-build2.firebaseapp.com',
+  projectId: 'netflix-build2',
+  storageBucket: 'netflix-build2.appspot.com',
+  messagingSenderId: '514064781261',
+  appId: '1:514064781261:web:617117489a17dfe5a1be84',
 }
 
 const firebaseApp = firebase.initializeApp(firebaseConfig)
